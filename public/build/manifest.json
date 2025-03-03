@@ -1,0 +1,36 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-Ccox252-.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/dashboard.css": {
+    "file": "assets/dashboard-DNWGnFTK.css",
+    "src": "resources/css/dashboard.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BTLtjfHu.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/components/monitoring.vue"
+    ],
+    "css": [
+      "assets/app-DGEYrO7c.css"
+    ]
+  },
+  "resources/js/components/monitoring.vue": {
+    "file": "assets/monitoring-C9qwuWXQ.js",
+    "name": "monitoring",
+    "src": "resources/js/components/monitoring.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/monitoring-DOJjWHwe.css"
+    ]
+  }
+}
